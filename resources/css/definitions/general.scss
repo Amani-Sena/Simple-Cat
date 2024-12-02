@@ -1,0 +1,46 @@
+body::-webkit-scrollbar {
+    width: 0px;             /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--white);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--black);    /* color of the scroll thumb */      /* roundness of the scroll thumb */
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    font-family: 'Timeless';
+    background-color: var(--white);
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+main[data-scroll-container] {
+    height: auto;
+    overflow: hidden; /* Garante que o Locomotive Scroll controla o scroll */
+}
+
+.div-line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--grayOp);
+}
+
+.div-line-margin {
+  width: 100%;
+  height: 1px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--grayOp);
+}

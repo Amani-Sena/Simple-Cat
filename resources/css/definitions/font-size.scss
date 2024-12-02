@@ -1,0 +1,111 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Eugello";
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 3.8rem; //72px
+}
+
+h2 {
+    font-size: 3rem; //48px
+}
+
+h3 {
+    font-size: 2rem; //40px
+}
+
+h4 {
+    font-size: 1.4rem; //32px
+}
+
+h5 {
+    font-size: 1.2rem; //24px
+}
+
+h6 {
+    font-size: 1rem; //16px
+}
+
+li {
+    letter-spacing: 1px; 
+}
+
+p {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.p-small {
+    font-size: 0.98rem;
+}
+
+.p-small-gray {
+    font-size: 0.98rem;
+    color: var(--gray);
+}
+
+.p-bold {
+    font-family: "TimelessBold";
+}
+
+.p-medium {
+    font-size: 1.12rem;
+}
+
+.p-medium-gray {
+    font-size: 1.12rem;
+    color: var(--gray);
+}
+
+.p-large {
+    font-size: 1.2rem;
+}
+
+.green {
+    color: var(--green);
+}
+
+.red {
+    color: var(--red);
+}
+
+.black {
+    color: var(--black);
+}
+
+.grayL {
+    color: var(--grayLight);
+}
+
+//---------------------------------------------------------------------
+
+
+
+@media (max-width:900px) {
+
+h1 {
+    font-size: 1.9rem; //50px
+}
+
+h2 {
+    font-size: 1.8rem; //42px
+}
+
+h3 {
+    font-size: 1.6rem; //34px
+}
+
+h4 {
+    font-size: 1.2rem; //26px
+}
+
+h5 {
+    font-size: 1.1rem; //18px
+}
+
+h6 {
+    font-size: 1rem; //16px
+}
+
+}

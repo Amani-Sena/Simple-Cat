@@ -1,0 +1,12 @@
+:root {
+  --whiteF: rgb(255, 255, 255);
+  --white: rgb(224, 224, 224);
+  --gray: rgb(83, 83, 83);
+  --grayLight: rgb(194, 194, 194);
+  --grayOp: rgba(94, 94, 94, 0.452);
+  --black: rgb(34, 34, 34);
+  --blackOp: rgb(34, 34, 34, 0.452);
+  --green: rgb(0, 134, 7);
+  --red: rgb(134, 0, 0);
+  --livewire-progress-bar-color: rgb(94, 94, 94) !important;
+}/*# sourceMappingURL=colors.css.map */

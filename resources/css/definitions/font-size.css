@@ -1,0 +1,100 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Eugello";
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+li {
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+.p-small {
+  font-size: 0.98rem;
+}
+
+.p-small-gray {
+  font-size: 0.98rem;
+  color: var(--gray);
+}
+
+.p-bold {
+  font-family: "TimelessBold";
+}
+
+.p-medium {
+  font-size: 1.12rem;
+}
+
+.p-medium-gray {
+  font-size: 1.12rem;
+  color: var(--gray);
+}
+
+.p-large {
+  font-size: 1.2rem;
+}
+
+.green {
+  color: var(--green);
+}
+
+.red {
+  color: var(--red);
+}
+
+.black {
+  color: var(--black);
+}
+
+.grayL {
+  color: var(--grayLight);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.6rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 1.1rem;
+  }
+  h6 {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=font-size.css.map */

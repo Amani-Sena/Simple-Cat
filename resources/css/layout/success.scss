@@ -1,0 +1,132 @@
+#section-success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10rem;
+}
+
+.success-container {
+    display: flex;
+    padding: 4rem 3rem 4rem 3rem;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 54rem;
+    justify-content: center;
+    background-color: var(--whiteF);
+}
+
+.success-user-info {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.4rem;
+}
+
+.success-order {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 6rem;
+    justify-content: space-between;
+}
+
+.success-order-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.6rem;
+}
+
+.success-order-final {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    gap: 4rem;
+    margin-top: 2rem;
+
+    h4 {
+        margin-bottom: 0.8rem;
+    }
+}
+
+.success-order-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.success-price-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+    width: 100%;
+}
+
+.success-price-row:nth-child(4) {
+    margin-bottom: 2rem;
+}
+
+.success-price-final {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.success-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+
+}
+
+
+.success-shipping {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.success-shipping-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+    
+    i {
+        font-size: 1.4rem;
+    }
+}
+
+.success-shipping-method {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+    margin-left: 1.6rem;
+
+}

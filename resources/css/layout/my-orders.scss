@@ -1,0 +1,73 @@
+#section-my-orders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10rem;
+}
+
+.my-orders-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    min-width: 90rem;
+    padding: 4rem 3rem 4rem 3rem;
+    background-color: var(--whiteF);
+}
+
+.my-orders-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.8rem 0.6rem 0.8rem 0.6rem;
+}
+
+.my-orders-row-gray {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--grayLight);
+    width: 100%;
+    padding: 0.8rem 0.6rem 0.8rem 0.6rem;
+}
+
+.my-orders-table {
+    justify-content: space-between;
+    width: 100%;
+    
+
+    td {
+        padding: 1rem;
+        //border: 1px solid var(--gray);
+        border-bottom: 1px solid var(--grayLight);
+    }
+
+    a {
+        color: var(--gray);
+    }
+
+    a:hover {
+        color: var(--black);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .my-orders-table td:nth-child(2),
+    .my-orders-table td:nth-child(3),
+    .my-orders-table td:nth-child(4),
+    .my-orders-table td:nth-child(5) {
+        display: none; /* Esconde a terceira coluna */
+    }
+
+    .my-orders-container {
+        width: 90%;
+        min-width: 0rem;
+        padding: 4rem 2rem 4rem 2rem;
+    }
+}
