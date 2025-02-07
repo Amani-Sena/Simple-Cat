@@ -18,7 +18,7 @@
 
 ✅ Sistemas de pagamentos via Stripe
 
-✅ Loja/mostruario, Filtros (cor, tamanho, modelos)
+✅ Loja/mostruário, filtros (cor, tamanho, modelos)
 
 ✅ Sistema de carrinho e favoritos
 
