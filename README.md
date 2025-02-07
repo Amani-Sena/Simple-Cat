@@ -7,7 +7,7 @@
 
 **Nome do Projeto:** Simple Cat
 
-**Descrição:** Uma plataforma com um visual retrô e encantador, inspirada no estilo paper white, que transmite elegância e simplicidade.
+**Descrição:** Uma plataforma e-commerce com um visual retrô encantador, inspirada no estilo paper white, que combina elegância e simplicidade para oferecer uma experiência nostálgica e sofisticada.
 
 **Tecnologias Utilizadas:**
 - **Frontend:** HTML, SCSS, Javascript, Livewire
